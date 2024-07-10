@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Fernando/Desktop/MDatos/T_MDatos_isim_beh.exe -prj C:/Users/Fernando/Desktop/MDatos/T_MDatos_beh.prj work.T_MDatos 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Fernando/Desktop/MDatos/MDatos.vhd" into library work
+Parsing VHDL file "C:/Users/Fernando/Desktop/MDatos/T_MDatos.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package math_real
+Compiling architecture behavioral of entity MDatos [\MDatos(10,1024,32)\]
+Compiling architecture behavior of entity t_mdatos
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable C:/Users/Fernando/Desktop/MDatos/T_MDatos_isim_beh.exe
+Fuse Memory Usage: 37568 KB
+Fuse CPU Usage: 328 ms

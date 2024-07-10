@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Fernando/Desktop/MDatos/T_MDatos_isim_beh.exe" -prj "C:/Users/Fernando/Desktop/MDatos/T_MDatos_beh.prj" "work.T_MDatos" 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Fernando\Desktop\MDatos\MDatos\MDatos.ncd
+OUTFILE=C:\Users\Fernando\Desktop\MDatos\MDatos\MDatos.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Fernando\Desktop\MDatos\MDatos
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,83 @@
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg400-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/admin/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.xst" -ofn "C:/Users/Fernando/Desktop/proyecto_v3/PROYECTO_FINAL_V3/proyecto_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc7z020-clg484-3 proyecto_final.ngc proyecto_final.ngd  
+map -intstyle ise -p xc7z020-clg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proyecto_final_map.ncd proyecto_final.ngd proyecto_final.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_final_map.ncd proyecto_final.ncd proyecto_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_final.twx proyecto_final.ncd -o proyecto_final.twr proyecto_final.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f proyecto_final.ut proyecto_final.ncd 

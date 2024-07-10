@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "proyecto_control.ngc" proyecto_control.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o proyecto_control_map.ncd proyecto_control.ngd proyecto_control.pcf 
+par -w -intstyle ise -ol high -mt off proyecto_control_map.ncd proyecto_control.ncd proyecto_control.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proyecto_control.twx proyecto_control.ncd -o proyecto_control.twr proyecto_control.pcf 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "proyecto_control.ngc" proyecto_control.ngd  
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.xst" -ofn "C:/Users/Fernando/Desktop/Proyecto ArqdePC/proyecto_control/proyecto_control.syr" 

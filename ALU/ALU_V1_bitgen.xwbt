@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Fernando\Desktop\ALU\ALU_V1.ncd
+OUTFILE=C:\Users\Fernando\Desktop\ALU\ALU_V1.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Fernando\Desktop\ALU
+LICENSE=WebPack
+USER_INFO=__0_0_0

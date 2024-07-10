@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Fernando\Desktop\proyecto_v3\PROYECTO_FINAL_V3\proyecto_final.ncd
+OUTFILE=C:\Users\Fernando\Desktop\proyecto_v3\PROYECTO_FINAL_V3\proyecto_final.bit
+FAMILY=Zynq
+PART=xc7z020-3clg484
+WORKINGDIR=C:\Users\Fernando\Desktop\proyecto_v3\PROYECTO_FINAL_V3
+LICENSE=WebPack
+USER_INFO=__0_0_0

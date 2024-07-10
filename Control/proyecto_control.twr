@@ -1,0 +1,169 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml proyecto_control.twx proyecto_control.ncd -o
+proyecto_control.twr proyecto_control.pcf
+
+Design file:              proyecto_control.ncd
+Physical constraint file: proyecto_control.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Instruction<0> |ALUOp<0>       |    8.528|
+Instruction<0> |ALUOp<1>       |    9.444|
+Instruction<0> |ALUOp<2>       |    9.487|
+Instruction<0> |ALUOp<3>       |    8.836|
+Instruction<0> |ALUSrc         |    7.917|
+Instruction<0> |Branch         |    7.625|
+Instruction<0> |MemRead        |    7.575|
+Instruction<0> |MemWrite       |    7.618|
+Instruction<0> |MemtoReg       |    7.627|
+Instruction<0> |RegWrite       |    8.184|
+Instruction<1> |ALUOp<0>       |    8.724|
+Instruction<1> |ALUOp<1>       |    9.640|
+Instruction<1> |ALUOp<2>       |    9.683|
+Instruction<1> |ALUOp<3>       |    9.032|
+Instruction<1> |ALUSrc         |    8.113|
+Instruction<1> |Branch         |    7.821|
+Instruction<1> |MemRead        |    7.770|
+Instruction<1> |MemWrite       |    7.813|
+Instruction<1> |MemtoReg       |    7.822|
+Instruction<1> |RegWrite       |    8.380|
+Instruction<2> |ALUOp<0>       |    8.280|
+Instruction<2> |ALUOp<1>       |    9.033|
+Instruction<2> |ALUOp<2>       |    9.076|
+Instruction<2> |ALUOp<3>       |    8.425|
+Instruction<2> |ALUSrc         |    7.866|
+Instruction<2> |Branch         |    6.582|
+Instruction<2> |MemRead        |    7.949|
+Instruction<2> |MemWrite       |    7.992|
+Instruction<2> |MemtoReg       |    8.001|
+Instruction<2> |RegWrite       |    8.133|
+Instruction<3> |ALUOp<0>       |    8.115|
+Instruction<3> |ALUOp<1>       |    8.663|
+Instruction<3> |ALUOp<2>       |    8.572|
+Instruction<3> |ALUOp<3>       |    8.154|
+Instruction<3> |ALUSrc         |    7.770|
+Instruction<3> |Branch         |    6.722|
+Instruction<3> |MemRead        |    7.690|
+Instruction<3> |MemWrite       |    7.733|
+Instruction<3> |MemtoReg       |    7.742|
+Instruction<3> |RegWrite       |    8.037|
+Instruction<4> |ALUOp<0>       |    8.601|
+Instruction<4> |ALUOp<1>       |    9.517|
+Instruction<4> |ALUOp<2>       |    9.560|
+Instruction<4> |ALUOp<3>       |    8.909|
+Instruction<4> |ALUSrc         |    7.990|
+Instruction<4> |Branch         |    7.698|
+Instruction<4> |MemRead        |    7.051|
+Instruction<4> |MemWrite       |    7.094|
+Instruction<4> |MemtoReg       |    7.103|
+Instruction<4> |RegWrite       |    8.257|
+Instruction<5> |ALUOp<0>       |    8.523|
+Instruction<5> |ALUOp<1>       |    9.439|
+Instruction<5> |ALUOp<2>       |    9.482|
+Instruction<5> |ALUOp<3>       |    8.831|
+Instruction<5> |ALUSrc         |    7.912|
+Instruction<5> |Branch         |    7.620|
+Instruction<5> |MemRead        |    7.092|
+Instruction<5> |MemWrite       |    7.135|
+Instruction<5> |MemtoReg       |    7.144|
+Instruction<5> |RegWrite       |    8.179|
+Instruction<6> |ALUOp<0>       |    8.983|
+Instruction<6> |ALUOp<1>       |    9.899|
+Instruction<6> |ALUOp<2>       |    9.942|
+Instruction<6> |ALUOp<3>       |    9.291|
+Instruction<6> |ALUSrc         |    8.372|
+Instruction<6> |Branch         |    8.080|
+Instruction<6> |MemRead        |    7.900|
+Instruction<6> |MemWrite       |    7.943|
+Instruction<6> |MemtoReg       |    7.952|
+Instruction<6> |RegWrite       |    8.639|
+Instruction<12>|ALUOp<0>       |    8.199|
+Instruction<12>|ALUOp<1>       |    8.837|
+Instruction<12>|ALUOp<2>       |    8.880|
+Instruction<12>|ALUOp<3>       |    8.238|
+Instruction<12>|ALUSrc         |    7.854|
+Instruction<12>|RegWrite       |    8.121|
+Instruction<13>|ALUOp<0>       |    9.188|
+Instruction<13>|ALUOp<1>       |    9.750|
+Instruction<13>|ALUOp<2>       |    9.793|
+Instruction<13>|ALUOp<3>       |    9.227|
+Instruction<13>|ALUSrc         |    7.921|
+Instruction<13>|RegWrite       |    8.188|
+Instruction<14>|ALUOp<0>       |    8.454|
+Instruction<14>|ALUOp<1>       |    9.370|
+Instruction<14>|ALUOp<2>       |    9.413|
+Instruction<14>|ALUOp<3>       |    8.762|
+Instruction<14>|ALUSrc         |    7.756|
+Instruction<14>|RegWrite       |    8.023|
+Instruction<25>|ALUOp<0>       |    8.486|
+Instruction<25>|ALUOp<1>       |    9.048|
+Instruction<25>|ALUOp<2>       |    9.091|
+Instruction<25>|ALUOp<3>       |    8.525|
+Instruction<26>|ALUOp<0>       |    8.678|
+Instruction<26>|ALUOp<1>       |    9.240|
+Instruction<26>|ALUOp<2>       |    9.283|
+Instruction<26>|ALUOp<3>       |    8.717|
+Instruction<27>|ALUOp<0>       |    8.251|
+Instruction<27>|ALUOp<1>       |    8.813|
+Instruction<27>|ALUOp<2>       |    8.856|
+Instruction<27>|ALUOp<3>       |    8.290|
+Instruction<28>|ALUOp<0>       |    8.192|
+Instruction<28>|ALUOp<1>       |    8.754|
+Instruction<28>|ALUOp<2>       |    8.797|
+Instruction<28>|ALUOp<3>       |    8.231|
+Instruction<29>|ALUOp<0>       |    8.494|
+Instruction<29>|ALUOp<1>       |    9.056|
+Instruction<29>|ALUOp<2>       |    9.099|
+Instruction<29>|ALUOp<3>       |    8.533|
+Instruction<30>|ALUOp<0>       |    7.360|
+Instruction<30>|ALUOp<1>       |    7.908|
+Instruction<30>|ALUOp<2>       |    7.560|
+Instruction<30>|ALUOp<3>       |    7.399|
+Instruction<31>|ALUOp<0>       |    8.572|
+Instruction<31>|ALUOp<1>       |    9.134|
+Instruction<31>|ALUOp<2>       |    9.177|
+Instruction<31>|ALUOp<3>       |    8.611|
+Zero           |Branch         |    7.187|
+---------------+---------------+---------+
+
+
+Analysis completed Mon May 20 00:31:44 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4575 MB
+
+
+

@@ -1,0 +1,2 @@
+vhdl work "proyecto_control.vhd"
+vhdl work "proyecto_control_tb.vhd"
